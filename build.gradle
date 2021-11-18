@@ -22,9 +22,19 @@ dependencies {
     implementation 'io.quarkus:quarkus-rest-client'
     implementation 'io.quarkus:quarkus-resteasy-jsonb'
     implementation 'io.vertx:vertx-auth-jwt:3.9.5'
-    
+    implementation 'io.quarkus:quarkus-jdbc-mysql:0.26.1'
+    implementation 'io.quarkus:quarkus-hibernate-orm:2.3.0.Final'
+    implementation 'io.quarkus:quarkus-jdbc-mysql:1.7.5.Final'
+
+    // https://mvnrepository.com/artifact/io.quarkus/quarkus-jdbc-postgresql
+    implementation 'io.quarkus:quarkus-jdbc-postgresql:1.10.2.Final'
+    implementation 'io.quarkus:quarkus-hibernate-orm-panache:2.3.0.Final'
+
+
+
     testImplementation 'io.quarkus:quarkus-junit5'
     testImplementation 'io.rest-assured:rest-assured'
+
 }
 
 group 'com.example'
