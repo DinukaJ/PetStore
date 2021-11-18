@@ -111,7 +111,7 @@ I have included automated testing in IntelliJ in the following path
 
     ./src -> test -> java
 
-###Automated Testing
+##Automated Testing
 
 1.Pets Test Cases (Right Click on PetTest and Click Run)
 
@@ -121,11 +121,11 @@ I have included automated testing in IntelliJ in the following path
 
    ![AutoTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/TestPetType.png)
 
-###Manual Testing
+##Manual Testing
 
 I have done manual testing using postman
 
-####Pet
+##Pet
 
 1) Pet Get All
 
@@ -155,7 +155,7 @@ I have done manual testing using postman
 
    ![ManualTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/DeletePet.png)
 
-####Pet Type
+##Pet Type
 
 1) Pet Type Get All
 
