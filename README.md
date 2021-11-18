@@ -88,6 +88,10 @@ If you want to learn more about building native executables, please consult http
 
    ![IntelliJ](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/Setup222.png)
 
+6) Create Database "petstore" in phpMyAdmin and Export the Database File I have Attached here
+
+   https://github.com/DinukaJ/PetStore/blob/main/Database/petstore.sql
+
 5) Build the Project Using this Tool
 
    ![IntelliJ](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/Setup22.png)
@@ -101,6 +105,74 @@ If you want to learn more about building native executables, please consult http
    ![IntelliJ](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/Setup4.png)
 
 
+## Testing API
+
+I have included automated testing in IntelliJ in the following path
+
+    ./src -> test -> java
+
+###Automated Testing
+
+1.Pets Test Cases (Right Click on PetTest and Click Run)
+
+   ![AutoTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/TestPet.png)
+
+2.Pets Type Test Cases (Right Click on PetTypeTest and Click Run)
+
+   ![AutoTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/TestPetType.png)
+
+###Manual Testing
+
+I have done manual testing using postman
+
+####Pet
+
+1) Pet Get All
+
+   ![ManualTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/Pet%20View.png)
+
+2) Pet Search By Id
+
+   ![ManualTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/SearchPetById.png)
+
+3) Pet Search By Name
+
+   ![ManualTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/SearchPetByName.png)
+
+4) Pet Search By Age
+
+   ![ManualTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/SearchPetByAge.png)
+
+5) Add Pet
+
+   ![ManualTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/Pet%20Add.png)
+
+6) Update Pet
+
+   ![ManualTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/UpdatePet.png)
+
+7) Delete Pet
+
+   ![ManualTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/DeletePet.png)
+
+####Pet Type
+
+1) Pet Type Get All
+
+   ![ManualTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/PetType%20Get.png)
+
+2) Add Pet Type
+
+   ![ManualTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/PetType%20Add.png)
+
+3) Update Pet Type
+
+   ![ManualTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/UpdatePetType.png)
+
+4) Delete Pet Type
+
+   ![ManualTest](https://github.com/DinukaJ/PetStore/blob/main/TestScreenshots/DeletePetType.png)
+
 ## Deploying Application
 
-To deploy the demo app on a docker-compose please visit [./deploy](https://github.com/rasika/petstore/tree/master/deploy)
+To deploy the demo app on a docker-compose please visit [./deploy](https://github.com/DinukaJ/PetStore/tree/main/deploy)
